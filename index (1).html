@@ -80,13 +80,13 @@
                     <input type="number" id="beratPerhiasan" placeholder="0.00" step="0.01">
                 </div>
 
-                <div id="formBatangan" class="hidden">
+                <div id="formBatangan">
                     <label>Merek / Jenis Batangan</label>
-                    <div class="type-selector">
-                        <div id="btnGaleri24" class="type-btn active" onclick="switchMerek('galeri24')">Galeri 24</div>
-                        <div id="btnAntam" class="type-btn" onclick="switchMerek('antam')">ANTAM</div>
-                        <div id="btnUbs" class="type-btn" onclick="switchMerek('ubs')">UBS</div>
-                    </div>
+                    <select id="Merek">
+                        <option value="Galeri 24">Galeri 24 Karat</option>
+                        <option value="ANTAM">ANTAM Karat</option>
+                        <option value="UBS">UBS Karat</option>
+                    </select>
                     <div id="infoMerek" class="merek-info"></div>
                     <label>Denominasi Batangan</label>
                     <select id="denominasi">
