@@ -82,11 +82,11 @@
 
                 <div id="formBatangan" class="hidden">
                     <label>Merek / Jenis Batangan</label>
-                    <div class="type-selector">
-                        <div id="btnGaleri24" class="type-btn active" onclick="switchMerek('galeri24')">Galeri 24</div>
-                        <div id="btnAntam" class="type-btn" onclick="switchMerek('antam')">ANTAM</div>
-                        <div id="btnUbs" class="type-btn" onclick="switchMerek('ubs')">UBS</div>
-                    </div>
+                    <select id="merekBatangan" onchange="onMerekChange()">
+                        <option value="galeri24">Galeri 24</option>
+                        <option value="antam">ANTAM</option>
+                        <option value="ubs">UBS</option>
+                    </select>
                     <div id="infoMerek" class="merek-info"></div>
                     <label>Denominasi Batangan</label>
                     <select id="denominasi">
